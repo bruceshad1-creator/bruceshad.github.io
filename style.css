@@ -8,26 +8,26 @@ body {
 header {
     background: #111;
     color: white;
-    padding: 40px;
+    padding: 10px;
     text-align: center;
 }
 
 section {
-    padding: 40px;
+    padding: 10px;
     max-width: 900px;
     margin: auto;
 }
 
 .project {
     background: white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 8px;
 }
 
 .linkedin {
     background: white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     border-radius: 8px;
 }
