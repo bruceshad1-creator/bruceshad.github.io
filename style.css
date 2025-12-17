@@ -8,17 +8,21 @@ body {
 header {
     /* Clear the float so the header wraps around all content */
     overflow: auto;
+    font-style: italic;
+    color: #aaaaaa;
+    font-family: "Georgia", serif;
+    text-shadow: 2px 2px 4px orange;
     background: #111;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-.header-logo {
+.profile_pix {
     float: left; /* Aligns the image to the left */
     margin-right: 20px; /* Adds some space between the image and other content */
     /* Add dimensions as needed */
-    width: 50px;
+    width: 115px;
     height: auto;
 }
 
