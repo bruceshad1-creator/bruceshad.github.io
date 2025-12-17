@@ -20,9 +20,9 @@ header {
 
 .profile_pix {
     float: left; /* Aligns the image to the left */
-    margin-right: 10px; /* Adds some space between the image and other content */
+    margin-right: 5px; /* Adds some space between the image and other content */
     /* Add dimensions as needed */
-    width: 115px;
+    width: 130px;
     height: auto;
 }
 
