@@ -6,10 +6,20 @@ body {
 }
 
 header {
+    /* Clear the float so the header wraps around all content */
+    overflow: auto;
     background: #111;
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+.header-logo {
+    float: left; /* Aligns the image to the left */
+    margin-right: 20px; /* Adds some space between the image and other content */
+    /* Add dimensions as needed */
+    width: 50px;
+    height: auto;
 }
 
 section {
