@@ -9,11 +9,10 @@ header {
     /* Clear the float so the header wraps around all content */
     overflow: auto;
     font-style: italic;
-    color: #aaaaaa;
     font-family: "Georgia", serif;
-    text-shadow: 2px 2px 2px #aaaaaa;
-    background: #111;
-    color: white;
+    text-shadow: 2px 2px 2px #aaa999;
+    color: #ffffff;
+    background: #191940;
     padding: 10px;
     text-align: center;
 }
