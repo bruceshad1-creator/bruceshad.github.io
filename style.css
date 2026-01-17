@@ -8,7 +8,7 @@ body {
       rgba(255, 255, 255, 0.89)
     ),
     url("./ai.png");
-    background-size: 85%;
+    background-size: 81% auto;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -23,6 +23,16 @@ header {
     background: #191940;
     padding: 10px;
     text-align: center;
+}
+
+footer {
+  overflow: hidden;
+  font-style: italic;
+  font-family: "Georgia", serif;
+  text-shadow: 2px 2px 2px #aaa999;
+  color: #ffffff;
+  background: #191940;
+  text-align: left;
 }
 
 .profile_pix {
