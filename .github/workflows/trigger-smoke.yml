@@ -1,0 +1,13 @@
+- name: Trigger External Smoke Tests in playwright-sdet Repo
+  run: |
+    curl -X POST \
+      -H "Accept: application/vnd.github+json" \
+      -H "Authorization: Bearer ${{ secrets.EXTERNAL_TEST_TOKEN }}" \
+      https://api.github.com/repos/OWNER/REPO_B/dispatches \
+      -d '{
+        "event_type": "run-smoke",
+        "client_payload": {
+          "repo": "${{ github.repository }}",
+          "sha": "${{ github.sha }}"
+        }
+      }'
